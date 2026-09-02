@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-Navy: #0A0C1C;
+    --color-blue: #1B1937;
+    --color-Purple: #AB5CDB;
+}
+
+span {
+    color: var(--color-Purple);
+}
+
+body {
+    font-family: inter;
+    color:white;
+    background: var(--color-Navy);
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    line-height: 2.25rem;
+}
+
+.wrapper {
+    background: var(--color-blue);
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: .5rem;
+}
+
+.text {
+   align-items: space-around; 
+   padding: 3rem 6rem;
+   line-height: 1.75rem;
+}
+
+.stats {
+    display:flex;
+}
+
+img {
+    border-radius: 0 .5rem .5rem 0;
+    background: var(--color-Purple);
+}
