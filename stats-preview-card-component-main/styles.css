@@ -90,12 +90,23 @@ p {
 
 @media (max-width: 1440px) {
   .wrapper {
-   flex-direction: column-reverse; 
+   flex-direction: column-reverse;
+   max-width: 28rem;  
   }
   .text {
-    border-radius:  0rem 0rem 1rem 1rem;  
+    text-align: center;
+    border-radius:  0rem 0rem 1rem 1rem;
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem  
   }
   .photo-wrap {
     border-radius:  1rem 1rem 0rem 0rem;  
+  }
+  p {
+    margin-bottom: 2rem;
   }
 }
