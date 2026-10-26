@@ -4,9 +4,10 @@
 
 :root {
     --color-Navy: #0A0C1C;
-    --color-blue: #1B1937;
+    --color-Blue: #1B1937;
     --color-Purple: #AB5CDB;
-}
+    --color-Muted: #a0a0b0;
+  }
 
 span {
     color: var(--color-Purple);
@@ -16,7 +17,6 @@ body {
     font-family: inter;
     color:white;
     background: var(--color-Navy);
-    padding: 4rem;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ h1 {
 }
 
 p {
-  color: #a0a0b0;
+  color: var(--color-Muted);
   margin-bottom: 5rem;
 }
 
@@ -36,11 +36,10 @@ p {
   display: flex;
   }
 
-.text {
-   align-items: space-around; 
+.text { 
    padding: 3rem 4rem;
    line-height: 1.75rem;
-   background: var(--color-blue); 
+   background: var(--color-Blue); 
    max-width: 34rem;
    border-radius:  1rem 0rem 0rem 1rem;  
   }
@@ -65,7 +64,7 @@ p {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #a0a0b0; /* muted grey-purple */
+  color: var(--color-Muted);; /* muted grey-purple */
 }
 
 .photo-wrap {
@@ -88,7 +87,7 @@ p {
   mix-blend-mode: color; /* the key property */
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
   .wrapper {
    flex-direction: column-reverse;
    max-width: 28rem;  
