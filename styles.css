@@ -9,12 +9,12 @@
     --color-Muted: #a0a0b0;
   }
 
-span {
+.highlight {
     color: var(--color-Purple);
 }
 
 body {
-    font-family: inter;
+    font-family: "Inter", sans-serif;
     color:white;
     background: var(--color-Navy);
     min-height: 100vh;
